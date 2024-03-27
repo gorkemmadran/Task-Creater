@@ -1,0 +1,126 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.Task-title{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.Task-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.Task-name-title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Task-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.Task-quest-title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Task-textarea{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.Task-create-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Show-Task-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Show-task{
+    background-color: #333;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.Show-task-title{
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.Show-task-data-title{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+.Show-task-data-desc{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    text-align: center;
+}
+.Show-task-button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.Show-task-delete{
+    background-color: red;
+    color: white; 
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.Show-task-update{
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
